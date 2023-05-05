@@ -1,4 +1,10 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
 .home-bg{
     min-height: 100vh;
-    
+    padding: 80px;
 }
+
