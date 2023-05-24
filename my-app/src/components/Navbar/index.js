@@ -1,24 +1,48 @@
-import "./index.css"
-const Navbar=()=>(
-    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top p-0 navbar-style">
-    <div className="container">
-      <a className="navbar-brand" href="#">Navbar</a>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse w-100 justify-content-end" id="navbarNav">
-      
-      <div className="navbar-nav ml-auto">
-              <a className="nav-link active" id="navItem1" href="#wcuSection">
-                Home
-              </a>
-              <a className="nav-link" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
-              <a className="nav-link" href="#deliveryPaymentSection" id="navItem3">Delivery & Payment</a>
-              <a className="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
-            </div>
-      </div>
-    </div>
-  </nav>
-)
+import React, { useState, useEffect } from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import './index.css';
 
-export default Navbar
+const CustomNavbar = () => {
+  const [isScrolled, setScrolled] = useState(false);
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY > 0;
+      setScrolled(scrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  return (
+    <Navbar
+      expand="lg"
+      fixed="top"
+      className={`custom-navbar ${isScrolled ? 'navbar-scroll' : ''}`}
+    >
+      <Container>
+        <Navbar.Brand href="#home">Logo</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbar" onClick={handleMenuToggle} />
+        <Navbar.Collapse id="navbar" className={`justify-content-end ${isMenuOpen ? 'show' : ''}`}>
+          <Nav className="mr-auto">
+            <Nav.Link href="#home" className="menu-item">Home</Nav.Link>
+            <Nav.Link href="#about" className="menu-item">About</Nav.Link>
+            <Nav.Link href="#services" className="menu-item">Services</Nav.Link>
+            <Nav.Link href="#contact" className="menu-item">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+};
+
+export default CustomNavbar;

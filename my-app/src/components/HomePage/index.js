@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Navbar  from '../Navbar';
+import CustomNavbar  from '../Navbar';
 import Footer  from '../Footer';
 import HomeCard from '../HomeCard';
 import "./index.css"
@@ -7,7 +7,7 @@ import "./index.css"
 const HomePage=()=>{
     return(
         <Fragment>
-      <Navbar />
+      <CustomNavbar />
         <div className='bg-light home-bg d-flex flex-cloumn justify-content-center align-items-center'>
                <HomeCard />
         </div>  
