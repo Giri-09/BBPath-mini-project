@@ -5,10 +5,13 @@ import HomeCard from '../HomeCard';
 import "./index.css"
 // Write your code here
 const HomePage=()=>{
+
+
     return(
         <Fragment>
       <CustomNavbar />
         <div className='bg-light home-bg d-flex flex-cloumn justify-content-center align-items-center'>
+               <button type='button' onClick={Clicked}>Click me</button>
                <HomeCard />
         </div>  
        <Footer/>
