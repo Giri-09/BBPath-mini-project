@@ -1,0 +1,11 @@
+.cse-courses-bg {
+  min-height: 100vh;
+  padding: 80px;
+  background-image: linear-gradient(to bottom right, #ffe5d4, white, white),
+    url(https://wallpapercave.com/wp/wp1859057.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.test {
+  background-color: beige;
+}
