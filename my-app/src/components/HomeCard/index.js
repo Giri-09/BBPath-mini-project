@@ -2,13 +2,13 @@ import "./index.css"
 
 const homeCardsList=[
     {
-        cardtitle:"COMPUTER SCIENCE COURSES",
-        cardtext:"Our BBPath COMPUTER SCIENCE courses will train you and help you to land on your dream job",
+        cardTitle:"COMPUTER SCIENCE COURSES",
+        cardText:"Our BBPath COMPUTER SCIENCE courses will train you and help you to land on your dream job",
         image:"cse.png",
     },
     {
-        cardtitle:"Pharmacy Courses",
-        cardtext:"Pharmacy courses deal with subjects like biology, medicine, and chemistry that offer foundational knowledge to develop pharmaceutical drugs for their safe and effective use in healthcare.",
+        cardTitle:"Pharmacy Courses",
+        cardText:"Pharmacy courses deal with subjects like biology, medicine, and chemistry that offer foundational knowledge to develop pharmaceutical drugs for their safe and effective use in healthcare.",
         image:"pharmacy.png",
     }
     ]
