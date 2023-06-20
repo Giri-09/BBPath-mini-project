@@ -48,11 +48,12 @@ const CSECoursesCard = () => (
     <CustomNavbar />
     <div className="cse-courses-bg d-flex flex-column justify-content-center align-items-center">
       <div className="row">
-        <div className="col-sm-6">
-          <div className="card">
+        
             {courseList.map((each,index) => (
-              <div className="card-body" key={index}>
-                {/* <img src={`images/cse-courses-card-images/${each.image}`} /> */}
+              <div className="col-sm-6"  key={index}>
+              <div className="card">
+              <div className="card-body">
+                {/* <img src={`images/cse-courses-card-images/${each.image}`} alt={each.cardTitle} /> */}
 
                 <h5 className="cardTitle">{each.cardTitle}</h5>
                 <p className="cardText">{each.cardText}</p>
@@ -60,9 +61,10 @@ const CSECoursesCard = () => (
                   Go somewhere
                 </a>
               </div>
-            ))}
-          </div>
+              </div>
         </div>
+            ))}
+         
       </div>
     </div>
 
