@@ -5,6 +5,8 @@ import HomeCard from '../HomeCard';
 import "./index.css"
 // Write your code here
 const HomePage=()=>{
+
+
     return(
         <Fragment>
       <CustomNavbar />
