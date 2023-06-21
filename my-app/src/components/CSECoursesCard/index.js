@@ -54,11 +54,12 @@ const CSECoursesCard = () => (
   <Fragment>
     <CustomNavbar />
     <div className="cse-courses-bg d-flex flex-column justify-content-center align-items-center">
+      <h1 className="w-100 mt-5 cse-courses-heading">CSE Courses</h1>
       <div className="row">
         
             {courseList.map((each,index) => (
-             <Link to={`${each.link}`} className="link"> <div className="col-sm-6"  key={index}>
-              
+             <div className="col-sm-6"  key={index}>
+               <Link to={`${each.link}`} className="link">
               <div className="card m-2">
               <div className="card-body">
                 <img className="cse-coursecard-image" src={`images/cse-courses-card-images/${each.image}`} alt={each.cardTitle} />
@@ -70,9 +71,9 @@ const CSECoursesCard = () => (
                
               </div>
               </div>
-              
+              </Link>
         </div>
-        </Link>
+       
             ))}
          
       </div>
