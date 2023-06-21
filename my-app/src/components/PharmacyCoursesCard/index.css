@@ -1,0 +1,54 @@
+.cse-courses-bg {
+    min-height: 100vh;
+    padding: 100px;
+    background-image: linear-gradient(to bottom right, #ffe5d4, white, white),
+      url(https://wallpapercave.com/wp/wp1859057.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .test {
+    background-color: beige;
+  }
+  h5{
+    padding-top: 50px;
+    font-size: 30px;
+  font-family:  Arial, Helvetica, sans-serif;
+  color: white;		 
+  }	  
+  .cse-course-card{
+  
+    width: 400px;
+    border-width:25px;
+    border-color:	lawngreen;
+    border-radius:30px;
+    text-align: center;
+  
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+  }
+  .home-bg{
+    min-height: 100vh;
+    padding: 80px;
+   
+        background-image: linear-gradient(to bottom right,#FFE5D4,white,white ), url(https://wallpapercave.com/wp/wp1859057.jpg);
+        background-size: cover;
+        background-position: center;
+    
+      
+  }
+  .pharmacy-course-card-image
+  {
+    height:250px;
+    width:100%;
+  }
+  
+  
+  .link{
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  

@@ -1,11 +1,9 @@
 .custom-card{
     width: 400px;
-    border-width:25px;
-    border-color:pink;
+    border-width:0px;
+
     border-radius:30px;
     text-align: center;
 
 }
-p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
