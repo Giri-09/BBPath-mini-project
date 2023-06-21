@@ -16,10 +16,10 @@ const homeCardsList=[
 
 const HomeCard=()=>(
     
-   <div>
+   <div className="row">
     {homeCardsList.map((each,index)=>(
-        <div className="card custom-card mb-3">
-        {/* <img src={`images/home-card-images/${each.image}`} alt={each.cardTitle}  /> */}
+        <div className="card custom-card col-sm-6">
+        {<img src={`images/homecard-images/${each.image}`} alt={each.cardTitle}  />}
         <div className="card-body" key={index}>
 
         <h5 className="card-title">{each.cardTitle}</h5>
