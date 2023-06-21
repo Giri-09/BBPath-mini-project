@@ -15,7 +15,7 @@ const CSECoursesCard=()=>(
       <div className="card-body">
         <h5 className="card-title">Programming</h5>
         <p className="card-text">Learn programming from basics in this online training.Programming course is taught hands-on by experts.Best for beginners.Start now!</p>
-        <a href="#" className="btn btn-primary">Get Started</a>
+        
       </div>
     </div>
   </div>

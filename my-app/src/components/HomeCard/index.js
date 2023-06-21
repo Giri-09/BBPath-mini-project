@@ -8,7 +8,7 @@ const HomeCard=()=>(
 <a href="" className="btn btn-primary">Get Started</a>
     </div>
     </div>
-git status
+
 
    
 )

@@ -18,17 +18,12 @@ color: white;
 .cse-course-card{
 
   width: 400px;
-  border-width:25px;
-  border-color:	lawngreen;
+  
   border-radius:30px;
   text-align: center;
 
 }
-body{
-  margin: 0px;
-  padding: 0px;
-  border: none;
-}
+
 .home-bg{
   min-height: 100vh;
   padding: 80px;
