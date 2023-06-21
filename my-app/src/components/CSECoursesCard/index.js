@@ -4,20 +4,6 @@ import { Fragment } from "react";
 
 import "./index.css";
 
-<<<<<<< HEAD
-const CSECoursesCard=()=>(
-    <Fragment>
-      <CustomNavbar />
-      <div className='cse-courses-bg d-flex flex-column justify-content-center align-items-center'>
-         <div className="row" >
-  <div className="col-sm-6">
-    <div className="card cse-course-card">
-    <img src="https://prepbytes-misc-images.s3.ap-south-1.amazonaws.com/assets/1644827956714-6.%20Programming%20Languages.png" className="card-img-top" alt="..." />
-      <div className="card-body">
-        <h5 className="card-title">Programming</h5>
-        <p className="card-text">Learn programming from basics in this online training.Programming course is taught hands-on by experts.Best for beginners.Start now!</p>
-        
-=======
 export const courseList = [
   {
     cardTitle: "Programming",
@@ -67,7 +53,7 @@ const CSECoursesCard = () => (
               <div className="col-sm-6"  key={index}>
               <div className="card">
               <div className="card-body">
-                {/* <img src={`images/cse-courses-card-images/${each.image}`} alt={each.cardTitle} /> */}
+                <img className="cse-coursecard-image" src={`images/cse-courses-card-images/${each.image}`} alt={each.cardTitle} />
 
                 <h5 className="cardTitle">{each.cardTitle}</h5>
                 <p className="cardText">{each.cardText}</p>
@@ -79,7 +65,6 @@ const CSECoursesCard = () => (
         </div>
             ))}
          
->>>>>>> 2f92c0e15ce5f502dbc7f06e773e4ab42d7cb720
       </div>
     </div>
 

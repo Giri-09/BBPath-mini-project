@@ -6,41 +6,26 @@ import "./index.css";
 
 export const courseList = [
   {
-    cardTitle: "Programming",
+    cardTitle: "Pharmacovigilance",
     cardText:
-      "Learn programming from basics in this online training.Programming course is taught hands-on by experts.Best for beginners.Start now!",
-    image: "programming.png",
+      "Module will enable aspirants to understand issues surrounding the risks and benifits of drug use in humans including the cause,manifestations and consequences of adverse drug effects. ",
+    image: "covigilance.png",
   },
   {
-    cardTitle: "DataStructures and Algorithms",
+    cardTitle: "Medical Coding",
     cardText:
-      "Learn different DataStructures and Algorithms used to program.In this session we'll be understanding the concept of DataStructures and implementation of algorithms along with their analysis based on time and space complexity",
-    image: "dsa.png",
+      " Medical coding is the process of describing medical diagnostics, treatments and other procedures using specific numerical codes. This process helps in easily identifying the various parameters involved in medical treatments.Medical Coding is an important technique used in capturing and maintaining medical records. ",
+    image: "medicalcoding.png",
   },
   {
-    cardTitle: "Database Management System",
+    cardTitle: "Clinical Research",
     cardText:
-      "Learn database management system from basics in this online training.DBMS course taught hands-on by experts.Learn key concepts in relational database management system in detail with examples",
-    image: "dbms.png",
+      "This course will provide you with the essentials of clinical research in a very summarized and concise manner to understand the process and to work towards building your qualifications for a job.",
+    image: "clinicalResearch.png",
   },
-  {
-    cardTitle: "Front-End Development",
-    cardText:
-      "With this online course you can understand how websites work and how HTML,CSS and JavaScript contribute.Learn fundamentals of implementing responsive web design,How to use bootstrap.",
-    image: "frontend.png",
-  },
-  {
-    cardTitle: "Back-End Development",
-    cardText:
-      "Hi and welcome to Complete backend web developer with nodeJS with projects. A complete course that starts with Javascript basics and move towards advance part of javascript. After that we will move to nodejs part. ",
-    image: "backend.png",
-  },
-  {
-    cardTitle: "Software-Testing",
-    cardText:
-      "Course objective is to provide you with all required knowledge that you need in order to land your first software testing 	job whether it is a full-time or a freelancing job.",
-    image: "st.png",
-  },
+  
+  
+  
 ];
 
 const PharmacyCoursesCard = () => (
@@ -53,7 +38,7 @@ const PharmacyCoursesCard = () => (
               <div className="col-sm-6"  key={index}>
               <div className="card">
               <div className="card-body">
-                {/* <img src={`images/cse-courses-card-images/${each.image}`} alt={each.cardTitle} /> */}
+                <img className="pharmacy-course-card-image" src={`images/pharmacy-courses-card-images/${each.image}`} alt={each.cardTitle} />
 
                 <h5 className="cardTitle">{each.cardTitle}</h5>
                 <p className="cardText">{each.cardText}</p>
