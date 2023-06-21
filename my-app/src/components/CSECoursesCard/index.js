@@ -67,7 +67,6 @@ const CSECoursesCard = () => (
          
       </div>
     </div>
-
     <Footer />
   </Fragment>
 );
