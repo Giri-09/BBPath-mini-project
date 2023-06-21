@@ -39,4 +39,12 @@ color: white;
   height:250px;
   width:100%;
 }
-
+.outline-custom:focus,
+.outline-custom:active {
+  outline: none;
+  background-color: blue;
+}
+.link{
+  text-decoration: none;
+  display: inline-block;
+}

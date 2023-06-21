@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import './index.css';
 
@@ -30,7 +31,9 @@ const CustomNavbar = () => {
       className={`custom-navbar ${isScrolled ? 'navbar-scroll' : ''}`}
     >
       <Container>
-        <Navbar.Brand href="#home">Logo</Navbar.Brand>
+        <Link to="/"><Navbar.Brand >
+            <img src="images/logo.png" alt="BBPath" className='logo'/>
+          </Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="navbar" onClick={handleMenuToggle} />
         <Navbar.Collapse id="navbar" className={`justify-content-end ${isMenuOpen ? 'show' : ''}`}>
           <Nav className="mr-auto">

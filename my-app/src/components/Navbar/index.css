@@ -1,6 +1,8 @@
 .custom-navbar {
     transition: background-color 0.3s ease;
-    height: 80px;
+    height: 100px;
+    padding: auto;
+
   }
   
   .custom-navbar.navbar-scroll {
@@ -60,5 +62,9 @@
   .menu-item a:hover:before {
     visibility: visible;
     transform: scaleX(1);
+  }
+  .logo{
+    height: 75px;
+    width: 90px;
   }
   
