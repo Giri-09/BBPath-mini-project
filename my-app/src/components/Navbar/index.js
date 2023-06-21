@@ -32,7 +32,7 @@ const CustomNavbar = () => {
     >
       <Container>
         <Link to="/"><Navbar.Brand >
-            <img src="images/logo.png" alt="BBPath" className='logo'/>
+            <img src="/images/logo.png" alt="BBPath" className='logo'/>
           </Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="navbar" onClick={handleMenuToggle} />
         <Navbar.Collapse id="navbar" className={`justify-content-end ${isMenuOpen ? 'show' : ''}`}>

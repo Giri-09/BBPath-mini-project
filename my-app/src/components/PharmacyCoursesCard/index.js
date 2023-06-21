@@ -39,9 +39,9 @@ const PharmacyCoursesCard = () => (
       <div className="row">
         
             {courseList.map((each,index) => (
-                <Link to={`${each.link}`}  key={index} className="link">
-              <div className="col-sm-6 m-2" >
-              
+               
+              <div className="col-sm-6 m-2" key={index}  >
+               <Link to={`${each.link}`}  className="link">
               <div className="card">
               <div className="card-body">
                 <img className="pharmacy-course-card-image" src={`images/pharmacy-courses-card-images/${each.image}`} alt={each.cardTitle} />
@@ -51,9 +51,9 @@ const PharmacyCoursesCard = () => (
                 
               </div>
               </div>
-              
+              </Link>
         </div>
-        </Link>
+       
             ))}
          
       </div>
