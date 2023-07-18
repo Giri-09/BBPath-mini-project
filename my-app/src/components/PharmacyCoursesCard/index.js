@@ -3,6 +3,7 @@ import Footer from "../Footer";
 import { Fragment } from "react";
 import { Link } from 'react-router-dom'
 
+
 import "./index.css";
 
 export const courseList = [
@@ -64,3 +65,5 @@ const PharmacyCoursesCard = () => (
 );
 
 export default PharmacyCoursesCard;
+
+

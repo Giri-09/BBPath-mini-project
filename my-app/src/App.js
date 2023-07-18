@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import HomePage from './components/HomePage';
 import CSECoursesCard from './components/CSECoursesCard'
 import PharmacyoursesCard from './components/PharmacyCoursesCard'
@@ -11,12 +11,15 @@ import CSECoursesDBMS from './components/CSECoursesDBMS';
 import CSECoursesFED from './components/CSECoursesFED';
 import CSECoursesBED from './components/CSECoursesBED';
 import CSECoursesST from './components/CSECoursesST';
+import LoginPage from './components/LoginPage'
 import NotFound from './components/NotFound';
+import ProtectedRoute from './components/ProtectedRoute'
 import './App.css';
 
 const App = () => (
   <BrowserRouter>
     <Routes>
+      <Route exact path="/login" element={<LoginPage />} />
       <Route exact path="/" element={<HomePage />} />
       <Route exact path="/cse-courses" element={<CSECoursesCard />} />
       <Route exact path="/pharmacy-courses" element={<PharmacyoursesCard />} />
@@ -30,6 +33,7 @@ const App = () => (
       <Route exact path="/cse-courses/backend" element={<CSECoursesBED />}/>
       <Route exact path="/cse-courses/st" element={<CSECoursesST />}/>
       <Route path="*" element={<NotFound />} />
+
 
     </Routes>
   </BrowserRouter>

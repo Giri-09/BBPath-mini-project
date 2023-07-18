@@ -1,6 +1,6 @@
 const Footer=()=>(
     <footer className="bg-dark text-white">
-  <div className="container">
+  <div className="container p-4 p-lg-5">
     <div className="row">
       <div className="col-md-6">
         <h3>BALAJI'S BRIGTH PATH</h3>
@@ -27,7 +27,7 @@ const Footer=()=>(
     </div>
     <div className="row">
       <div className="col-md-12 text-center">
-        <p>&copy; 2023 Company Name. All rights reserved.</p>
+        <p>&copy; 2023 BALAJI'S BRIGTH PATH. All rights reserved.</p>
       </div>
     </div>
   </div>

@@ -1,15 +1,24 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'
+import {Link } from 'react-router-dom'
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import Cookies from 'js-cookie'
 import './index.css';
 
-const CustomNavbar = () => {
+const CustomNavbar = (props) => {
   const [isScrolled, setScrolled] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
     setMenuOpen(!isMenuOpen);
   };
+
+
+  const onClickLogout = () => {
+    Cookies.remove('jwt_token', { path: '/' });
+  };
+  
+    
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,6 +32,8 @@ const CustomNavbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  const jwtToken = Cookies.get('jwt_token')
 
   return (
     <Navbar
@@ -41,6 +52,8 @@ const CustomNavbar = () => {
             <Nav.Link href="#about" className="menu-item">About</Nav.Link>
             <Nav.Link href="#services" className="menu-item">Services</Nav.Link>
             <Nav.Link href="#contact" className="menu-item">Contact</Nav.Link>
+            {!(jwtToken === undefined) &&   <button className='logout-button' onClick={onClickLogout}>Logout</button>}
+           
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -49,3 +62,4 @@ const CustomNavbar = () => {
 };
 
 export default CustomNavbar;
+
