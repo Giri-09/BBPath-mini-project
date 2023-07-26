@@ -6,6 +6,7 @@ import PharmacyoursesPV from './components/PharmacyCoursesPV'
 import PharmacyoursesMC from './components/PharmacyCoursesMC'
 import PharmacyoursesCR from './components/PharmacyCoursesCR'
 import CSECoursesProgrammming from './components/CSECoursesProgramming';
+import Python from './components/Python';
 import CSECoursesDSA from './components/CSECoursesDSA';
 import CSECoursesDBMS from './components/CSECoursesDBMS';
 import CSECoursesFED from './components/CSECoursesFED';
@@ -27,6 +28,7 @@ const App = () => (
       <Route exact path="/pharmacy-courses/medical-coding" element={<PharmacyoursesMC />} />
       <Route exact path="/pharmacy-courses/clinical-reasearch" element={<PharmacyoursesCR />} />
       <Route exact path="/cse-courses/programming" element={<CSECoursesProgrammming />}/>
+      <Route exact path="/cse-courses/programming/python" element={<Python />}/>
       <Route exact path="/cse-courses/dsa" element={<CSECoursesDSA />}/>
       <Route exact path="/cse-courses/dbms" element={<CSECoursesDBMS />}/>
       <Route exact path="/cse-courses/frontend" element={<CSECoursesFED />}/>
