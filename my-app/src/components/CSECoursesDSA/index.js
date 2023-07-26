@@ -1,141 +1,109 @@
 import React, { Fragment } from 'react';
 import CustomNavbar  from '../Navbar';
 import Footer  from '../Footer';
-
+import {Link } from 'react-router-dom'
 import "./index.css";
 
-const CSECoursesDSA = () => (
-    <Fragment>
-      <CustomNavbar />
-      <div className='python-bg'>
-		<h2>Data Structures And Algorithms</h2>
-	  <p>
-	<br />
-	<br />
-	 Introduction:
-	<br />
-	 Welcome to the world of Data Structures and Algorithms! This comprehensive guide is designed for beginners who want to learn about data structures and algorithms from scratch. Understanding these concepts is essential for building efficient and scalable software solutions. This guide will take you through the fundamental data structures and algorithms, providing you with a strong foundation to tackle programming challenges and optimize your code.
-	<br />
-	<br />
-	 Chapter 1: Introduction to Data Structures and Algorithms
-	<br />
-	 - What are data structures and algorithms?
-	<br />
-	 - Importance and benefits of understanding data structures and algorithms
-	<br />
-	 - Big O notation: analyzing time and space complexity
-	<br />
-	<br />
-	 Chapter 2: Arrays and Strings
-	<br />
-	 - Arrays: creation, accessing, and manipulation
-	<br />
-	 - Strings: operations, string manipulation, and pattern matching
-	<br />
-	<br />
-	 Chapter 3: Linked Lists
-	<br />
-	 - Singly linked lists: creation, insertion, deletion, and traversal
-	<br />
-	 - Doubly linked lists: implementation and usage
-	<br />
-	 - Circular linked lists: concepts and applications
-	<br />
-	<br />
-	 Chapter 4: Stacks and Queues
-	<br />
-	 - Stack data structure: operations, implementation, and applications
-	<br />
-	 - Queue data structure: operations, implementation, and applications
-	<br />
-	 - Deque (Double-ended queue): implementation and usage
-	<br />
-	<br />
-	 Chapter 5: Trees
-	<br />
-	 - Binary trees: concepts, implementation, and traversal algorithms
-	<br />
-	 - Binary search trees: principles and operations (insertion, deletion, searching)
-	<br />
-	 - Balanced binary search trees: AVL trees, Red-Black trees, and their properties
-	<br />
-	 - Tree traversal algorithms: depth-first search and breadth-first search
-	<br />
-	<br />
-	 Chapter 6: Heaps and Priority Queues
-	<br />
-	 - Heap data structure: principles, implementation, and operations (insertion, deletion)
-	<br />
-	 - Min and max heaps: properties and usage
-	<br />
-	 - Priority queues: concepts, implementation, and applications
-	<br />
-	<br />
-	 Chapter 7: Hashing and Hash Tables
-	<br />
-	 - Hashing: principles, hash functions, and collision resolution techniques
-	<br />
-	 - Hash tables: implementation, collision handling, and efficiency analysis
-	<br />
-	 - Applications of hash tables
-	<br />
-	<br />
-	 Chapter 8: Graphs
-	<br />
-	 - Graph representations: adjacency matrix and adjacency list
-	<br />
-	 - Graph traversal algorithms: depth-first search (DFS) and breadth-first search (BFS)
-	<br />
-	 - Shortest path algorithms: Dijkstra's algorithm and Bellman-Ford algorithm
-	<br />
-	 - Minimum spanning tree: Prim's algorithm and Kruskal's algorithm
-	<br />
-	<br />
-	 Chapter 9: Sorting Algorithms
-	<br />
-	 - Bubble sort, selection sort, and insertion sort
-	<br />
-	 - Merge sort and quicksort: principles and implementation
-	<br />
-	 - Radix sort and counting sort
-	<br />
-	 - Comparison of sorting algorithms: time complexity and performance analysis
-	<br />
-	<br />
-	 Chapter 10: Searching Algorithms
-	<br />
-	 - Linear search and binary search
-	<br />
-	 - Hash-based searching: concepts and applications
-	<br />
-	 - String searching algorithms: brute force, Knuth-Morris-Pratt (KMP), and Boyer-Moore algorithms
-	<br />
-	<br />
-	 Chapter 11: Dynamic Programming
-	<br />
-	 - Understanding dynamic programming principles
-	<br />
-	 - Solving problems using dynamic programming techniques
-	<br />
-	 - Memoization and bottom-up approaches
-	<br />
-	 - Examples of dynamic programming problems
-	<br />
-	<br />
-	 Conclusion:
-	<br />
-	 Congratulations! You have completed the comprehensive guide to Data Structures and Algorithms. By understanding these concepts, you are equipped with the tools to optimize your code, solve complex problems efficiently, and build scalable software solutions. Keep practicing, implementing algorithms, and exploring new problem-solving techniques.
-	<br />
-	<br />
-	 Remember, this guide provides a solid foundation, but there's always more to learn and explore in the realm of data structures and algorithms. Happy coding!
-</p>
-
-        
-
-      </div>
+export const DSAList=[
+  {
+    cardTitle:"Arrays",
+    cardText:"An array is a container object that holds a fixed number of values of a single type. The length of an array is established when the array is created. After creation, its length is fixed.",
+    link:"arrays",
+  },
+  {
+    cardTitle:"Strings",
+    cardText:"A string is a data type used in programming, that is used to represent text rather than numbers. A string is a sequence of characters and can contain letters, numbers, symbols and even spaces.",
+    
+    link:"strings",
+  },
+  {
+    cardTitle:"LinkedList",
+    cardText:"A linked list is a linear collection of data elements whose order is not given by their physical placement in memory.",
+    
+    link:"linkedlist",
+  },
+  {
+    cardTitle:"Stacks",
+    cardText:"Stack is a linear data structure that follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out)",
   
-      <Footer />
-    </Fragment>
-  );
+    link:"stack",
+  },
+  {
+    cardTitle:"Queue",
+    cardText:" A Queue is defined as a linear data structure that is open at both ends and the operations are performed in First In First Out (FIFO) order.",
+  
+    link:"queue",
+  },
+  {
+    cardTitle:"Tree",
+    cardText:"A tree data structure is defined as a collection of objects or entities known as nodes that are linked together to represent or simulate hierarchy.",
+  
+    link:"tree",
+  },
+  {
+    cardTitle:"Graph",
+    cardText:"A graph can be defined as group of vertices and edges that are used to connect these vertices. ",
+  
+    link:"graph",
+  },
+  {
+    cardTitle:"Searching Algorithms",
+    cardText:" Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored. ",
+  
+    link:"searching",
+  },
+  {
+    cardTitle:"SortingAlgorithms",
+    cardText:" A Sorting Algorithm is used to rearrange a given array or list of elements according to a comparison operator on the elements.",
+  
+    link:"sorting",
+  },
+  {
+    cardTitle:"GreedyAlgorithms",
+    cardText:"A greedy algorithm is an algorithm that finds a solution to problems in the shortest time possible. ",
+  
+    link:"greedy",
+  },
+  {
+    cardTitle:"DynamicProgramming",
+    cardText:"Dynamic programming is used where we have problems, which can be divided into similar sub-problems, so that their results can be re-used.",
+  
+    link:"dp",
+  },
+  
+    
+  ]
+  
+  
 
-  export default CSECoursesDSA
+
+const CSECoursesDSA = () => (
+  <Fragment>
+    <CustomNavbar />
+    <div className="inner-courses-card d-flex flex-column justify-content-center align-items-center">
+      <div className="row width-100">
+        <div className="d-flex  flex-column align-items-center col-lg-8 col-xl-6 col-sm-12"> {DSAList.map((each,index) => (
+               
+               <div className=" width-100 m-2" key={index}  >
+                <Link to={`${each.link}`}  className="link width-100">
+               <div className="card width-100 card-Python">
+               <div className="width-100 card-body">
+                 <h5 className="head-Python p-0">{each.cardTitle}</h5>
+                 <p className="cardText des-python m-0 p-0">{each.cardText}</p>
+                 
+               </div>
+               </div>
+               </Link>
+         </div>
+        
+             ))}</div>
+           
+         
+      </div>
+    </div>
+
+    <Footer />
+  </Fragment>
+);
+
+export default CSECoursesDSA;
