@@ -89,9 +89,9 @@ const App = () => (
       <Route exact path="/cse-courses/frontend/html" element={<HTML />}/>
       <Route exact path="/cse-courses/frontend/css" element={<CSS />}/>
       <Route exact path="/cse-courses/frontend/javascript" element={<JavaScript />}/>
-      <Route exact path="/cse-courses/backend/sql" element={<SQL/>}/>
+      <Route exact path="/cse-courses/backend/sql" element={<SQL/ >}/>
       <Route exact path="/cse-courses/backend/mongodb" element={<MongoDB/>}/>
-      <Route exact path="/cse-courses/nodejs" element={<NodeJS />}/>
+      <Route exact path="/cse-courses/backend/nodejs" element={<NodeJS />}/>
       <Route exact path="/cse-courses/backend" element={<CSECoursesBED />}/>
       <Route exact path="/cse-courses/st" element={<CSECoursesST />}/>
       <Route exact path="/cse-courses/st/testing" element={<SoftwareTesting />}/>

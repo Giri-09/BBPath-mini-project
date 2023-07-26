@@ -5,8 +5,9 @@ import {Link } from 'react-router-dom'
 import "./index.css";
 
 export const STList=[
+  
   {
-    cardTitle:"Introduction to Software testing",
+    cardTitle:"SotwareTesting",
     cardText:"Software testing is a check activity to validate whether the actual results matches with expected results and to ensure that the software system is bug free. ",
     
     link:"testing",
@@ -34,9 +35,7 @@ export const STList=[
     cardText:"Test automation is the process of using automation tools to maintain test data, execute tests, and analyze test results to improve software quality. Automated testing is also called test automation or automated QA testing",
     
     link:"automation",
-  },
- 
-  
+  }
     
   ]
   
