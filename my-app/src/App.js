@@ -104,7 +104,6 @@ const App = () => (
       <Route exact path="/cse-courses/backend/nodejs" element={<NodeJS />}/>
       <Route exact path="/cse-courses/backend" element={<CSECoursesBED />}/>
       <Route exact path="/cse-courses/st" element={<CSECoursesST />}/>
-<<<<<<< HEAD
       <Route exact path="/cse-courses/programming/python/python-chapter-1" element={<PythonChapter1 />}/>
       <Route exact path="/cse-courses/programming/python/python-chapter-2" element={<PythonChapter2 />}/>
       <Route exact path="/cse-courses/programming/python/python-chapter-3" element={<PythonChapter3 />}/>
@@ -115,13 +114,11 @@ const App = () => (
       <Route exact path="/cse-courses/programming/python/python-chapter-8" element={<PythonChapter8 />}/>
       <Route exact path="/cse-courses/programming/python/python-chapter-9" element={<PythonChapter9 />}/>
       <Route exact path="/cse-courses/programming/python/python-chapter-10" element={<PythonChapter10 />}/>
-=======
       <Route exact path="/cse-courses/st/testing" element={<SoftwareTesting />}/>
       <Route exact path="/cse-courses/st/levels" element={<LevelsOfTesting />}/>
       <Route exact path="/cse-courses/st/management" element={< TestManagement/>}/>
       <Route exact path="/cse-courses/st/testcasedesign" element={<TestCaseDesign/>}/>
       <Route exact path="/cse-courses/st/automation" element={<TestAutomation />}/>
->>>>>>> a225b3acdc63d4e0061e8e128f67c0546787a570
       <Route path="*" element={<NotFound />} />
 
 
