@@ -7,6 +7,16 @@ import PharmacyoursesMC from './components/PharmacyCoursesMC'
 import PharmacyoursesCR from './components/PharmacyCoursesCR'
 import CSECoursesProgrammming from './components/CSECoursesProgramming';
 import Python from './components/Python';
+import PythonChapter1 from './components/PythonChapter1';
+import PythonChapter2 from './components/PythonChapter2';
+import PythonChapter3 from './components/PythonChapter3';
+import PythonChapter4 from './components/PythonChapter4';
+import PythonChapter5 from './components/PythonChapter5';
+import PythonChapter6 from './components/PythonChapter6';
+import PythonChapter7 from './components/PythonChapter7';
+import PythonChapter8 from './components/PythonChapter8';
+import PythonChapter9 from './components/PythonChapter9';
+import PythonChapter10 from './components/PythonChapter10';
 import Java from './components/Java';
 import C from './components/C';
 
@@ -94,11 +104,24 @@ const App = () => (
       <Route exact path="/cse-courses/backend/nodejs" element={<NodeJS />}/>
       <Route exact path="/cse-courses/backend" element={<CSECoursesBED />}/>
       <Route exact path="/cse-courses/st" element={<CSECoursesST />}/>
+<<<<<<< HEAD
+      <Route exact path="/cse-courses/programming/python/python-chapter-1" element={<PythonChapter1 />}/>
+      <Route exact path="/cse-courses/programming/python/python-chapter-2" element={<PythonChapter2 />}/>
+      <Route exact path="/cse-courses/programming/python/python-chapter-3" element={<PythonChapter3 />}/>
+      <Route exact path="/cse-courses/programming/python/python-chapter-4" element={<PythonChapter4 />}/>
+      <Route exact path="/cse-courses/programming/python/python-chapter-5" element={<PythonChapter5 />}/>
+      <Route exact path="/cse-courses/programming/python/python-chapter-6" element={<PythonChapter6 />}/>
+      <Route exact path="/cse-courses/programming/python/python-chapter-7" element={<PythonChapter7 />}/>
+      <Route exact path="/cse-courses/programming/python/python-chapter-8" element={<PythonChapter8 />}/>
+      <Route exact path="/cse-courses/programming/python/python-chapter-9" element={<PythonChapter9 />}/>
+      <Route exact path="/cse-courses/programming/python/python-chapter-10" element={<PythonChapter10 />}/>
+=======
       <Route exact path="/cse-courses/st/testing" element={<SoftwareTesting />}/>
       <Route exact path="/cse-courses/st/levels" element={<LevelsOfTesting />}/>
       <Route exact path="/cse-courses/st/management" element={< TestManagement/>}/>
       <Route exact path="/cse-courses/st/testcasedesign" element={<TestCaseDesign/>}/>
       <Route exact path="/cse-courses/st/automation" element={<TestAutomation />}/>
+>>>>>>> a225b3acdc63d4e0061e8e128f67c0546787a570
       <Route path="*" element={<NotFound />} />
 
 
