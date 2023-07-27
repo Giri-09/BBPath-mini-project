@@ -9,7 +9,7 @@ const Arrays = () => (
       <CustomNavbar />
       <div className='python-bg'>
         <h2>Arrays</h2>
-     
+       <center><img src ="https://media.geeksforgeeks.org/wp-content/uploads/20230302091959/Arrays-in-C.png"/></center><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>  
 <p>Array in C is one of the most used data structures in C programming. It is a simple and fast way of storing multiple values under a single name. In this article, we will study the different aspects of array in C language such as array declaration, definition, initialization, types of arrays, array syntax, advantages and disadvantages, and many more.</p>
 <div>
      <p>An array in C is a fixed-size collection of similar data items stored in contiguous memory locations. It can be used to store the collection of primitive data types such as int, char, float, etc., and also derived and user-defined data types such as pointers, structures, etc.</p>
@@ -24,6 +24,7 @@ const Arrays = () => (
 <p>where N is the number of dimensions.</p>
 <p>The C arrays are static in nature, i.e., they are allocated memory at the compile time.</p>
 </div>
+<img src ="https://media.geeksforgeeks.org/wp-content/uploads/20230302091959/Arrays-in-C.png"/><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <h6>Example of array declaration</h6>
 <div className="box">
 <pre>
@@ -42,14 +43,17 @@ int main()
 
 
 </pre>
+
 </div>
 <h4>C Initialization</h4>
+<img src = "https://media.geeksforgeeks.org/wp-content/uploads/20230302092653/C-array-initialization.png"/><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <p>In this method, we initialize the array along with its declaration. We use an initializer list to initialize multiple elements of the array. An initializer list is the list of values enclosed within braces { } separated b a comma</p>
 <p><pre>{`data_type array_name [size] = {value1, value2, ... valueN};
 Ex:
 data_type array_name[] = {1,2,3,4,5};`}
 </pre></p>
 <h4>Access Array Elements</h4>
+<img src = "https://media.geeksforgeeks.org/wp-content/uploads/20230302092738/access-array-elements.png"/><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <p>We can access any element of an array in C using the array subscript operator [ ]  and the index value i of the element.
 
 array_name [index];

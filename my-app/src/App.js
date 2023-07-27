@@ -82,9 +82,9 @@ const App = () => (
       <Route exact path="/cse-courses/dsa/tree" element={<Tree />}/>
       <Route exact path="/cse-courses/dsa/graph" element={<Graph />}/>
       <Route exact path="/cse-courses/dsa/searching" element={<SearchingAlgorithms />}/>
-      <Route exact path="/cse-courses/dsa/sorting" element={<GreedyAlgorithms />}/>
-      <Route exact path="/cse-courses/dsa/greedy" element={<DynamicProgramming />}/>
-      <Route exact path="/cse-courses/dsa/dp" element={<SortingAlgorithms />}/>
+      <Route exact path="/cse-courses/dsa/sorting" element={<SortingAlgorithms />}/>
+      <Route exact path="/cse-courses/dsa/greedy" element={<GreedyAlgorithms />}/>
+      <Route exact path="/cse-courses/dsa/dp" element={<DynamicProgramming />}/>
       <Route exact path="/cse-courses/dbms/intro" element={<Introduction />}/>
       <Route exact path="/cse-courses/dbms/explanation" element={<Explanation />}/>
       <Route exact path="/cse-courses/dbms/characteristics" element={<Characteristics />}/>

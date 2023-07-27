@@ -9,8 +9,33 @@ const Queue = () => (
     <Fragment>
       <CustomNavbar />
       <div className='python-bg'>
-        <h2>Python</h2>
-      <p>Introduction: Welcome to the world of Python programming! This comprehensive guide is designed for beginners who want to learn Python from scratch. Whether you're interested in web development, data analysis, artificial intelligence, or any other field, Python is a versatile and powerful programming language that can help you achieve your goals.</p>
+        <h2>Queue</h2>
+        <br></br><br></br><br></br>
+        <h4>What is Queue DataStructure?</h4>
+        <p>A Queue is defined as a linear data structure that is open at both ends and the operations are performed in First In First Out (FIFO) order.</p>
+      
+<p>We define a queue to be a list in which all additions to the list are made at one end, and all deletions from the list are made at the other end.  The element which is first pushed into the order, the operation is first performed on that.
+
+</p><br></br><br></br><br></br><br></br>
+<h4>FIFO principle of Queue</h4>
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221213111946/fifo-property-in-Queue.png"/>
+      <p>A Queue is like a line waiting to purchase tickets, where the first person in line is the first person served. (i.e. First come first serve).</p><br></br>
+<p>Position of the entry in a queue ready to be served, that is, the first entry that will be removed from the queue, is called the front of the queue(sometimes, head of the queue), similarly, the position of the last entry in the queue, that is, the one most recently added, is called the rear (or the tail) of the queue. See the below figure.
+</p><br></br><br></br><br></br><br></br>
+<h6>Characteristics of Queue DataStructure</h6>
+<p>1.Queue can handle multiple data.
+
+</p>
+<p>2.We can access both ends.</p>
+<p>3.They are fast and flexible. </p>
+<h4>Queue Representation</h4><br></br>
+<pre>{`Like stacks, Queues can also be represented in an array:
+ In this representation, the Queue is implemented using the array.
+  Variables used in this case are
+Queue: the name of the array storing queue elements.
+Front: the index where the first element is stored in the array representing the queue.
+Rear: the index where the last element is stored in an array representing the queue.
+`}</pre>
 
 
       </div>

@@ -11,7 +11,7 @@ const Strings = () => (
         <h2>Strings in C</h2>
       
 <p>A String in C programming is a sequence of characters terminated with a null character ‘\0’. The C String is stored as an array of characters. The difference between a character array and a C string is the string is terminated with a unique character ‘\0’.
-
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20230412184146/Strings-in-C.webp"/><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 </p>
 <h4>C String declaration syntax</h4>
 <p>Declaring a string in C is as simple as declaring a one-dimensional array. Below is the basic syntax for declaring a string.
@@ -90,6 +90,8 @@ int main()
    
     return 0;
 }`}</pre>
+<h4>Representation of Stings</h4>
+<img src = "https://media.geeksforgeeks.org/wp-content/uploads/20230412184222/strings-and-pointers.webp"/><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
       </div>
   
       <Footer />
