@@ -33,7 +33,7 @@ const HomePage = () => {
           </video>
         </div>
         <h1 className='cards-header-home'>Our Streams</h1>
-        <div className='w-100'><HomeCard /></div>
+        <div className='w-100 d-flex justify-content-center align-items-center'><HomeCard /></div>
       </div>
       <Footer />
     </Fragment>

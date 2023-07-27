@@ -8,9 +8,10 @@ const LinkedList = () => (
     <Fragment>
       <CustomNavbar />
       <div className='python-bg'>
-        <h2>Python</h2>
-      <p>Introduction: Welcome to the world of Python programming! This comprehensive guide is designed for beginners who want to learn Python from scratch. Whether you're interested in web development, data analysis, artificial intelligence, or any other field, Python is a versatile and powerful programming language that can help you achieve your goals.</p>
-
+        <h2>Linked List in C</h2>
+        <p>Linked List is a linear data structure, in which elements are not stored at a contiguous location, rather they are linked using pointers. Linked List forms a series of connected nodes, where each node stores the data and the address of the next node.</p>
+        <img src = "https://media.geeksforgeeks.org/wp-content/uploads/20220712172013/Singlelinkedlist.png" /> 
+      
       </div>
   
       <Footer />

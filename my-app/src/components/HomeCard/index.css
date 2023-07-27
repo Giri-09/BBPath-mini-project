@@ -1,9 +1,35 @@
 .custom-card{
     width: 400px;
     border-width:0px;
-
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    border:0px;
     border-radius:30px;
-    text-align: center;
-
+    padding: 0px;
+    margin: 15px;
 }
+.custom-card-image{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 250px;
+    width: 100%;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(19, 19, 46);
+}
+.des-home-page{
+    color: #717183;
+    line-height: 1.2;
+  }
+  .button-style-home{
+    background-color: #0b1F52;
+    color: white;
+    height: 35px;
+    width: 105px;
+    border: none;
+    border-radius: 10px;
+  }
 

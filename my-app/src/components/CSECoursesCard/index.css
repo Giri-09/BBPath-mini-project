@@ -37,7 +37,7 @@ color: white;
 }
 .cse-coursecard-image
 {
-  height:250px;
+  height:200px;
   width:100%;
 }
 .outline-custom:focus,
@@ -57,3 +57,12 @@ color: white;
   margin-left: 20px !important;
 
 }
+.card-title-cse{
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+}
+.min-height-450{
+  min-height: 450px;
+}
+

@@ -133,4 +133,11 @@
     line-height: 16px;
     color: #ff0b37;
   }
+  .login-logo{
+    height: 70px;
+    width: 70px;
+  }
+  .login-logo-title{
+    color: #3f4045;
+  }
   

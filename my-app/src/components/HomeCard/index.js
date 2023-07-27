@@ -4,14 +4,14 @@ import "./index.css"
 
 const homeCardsList=[
     {
-        cardTitle:"COMPUTER SCIENCE COURSES",
-        cardText:"Our BBPath COMPUTER SCIENCE courses will train you and help you to land on your dream job",
+        cardTitle:"Computer Science Courses",
+        cardText:"Embrace the world of cutting-edge technology and programming, as you delve into the realm of software development, artificial intelligence, and computer systems, empowering you to shape the future with innovative solutions.",
         image:"cse.png",
         link:"cse-courses"
     },
     {
         cardTitle:"Pharmacy Courses",
-        cardText:"Pharmacy courses deal with subjects like biology, medicine, and chemistry that offer foundational knowledge to develop pharmaceutical drugs for their safe and effective use in healthcare.",
+        cardText:"Step into the realm of pharmaceutical sciences, where you'll explore the intricate world of drugs, patient care, and healthcare systems, gaining expertise in medicinal chemistry, drug interactions, and patient counseling.",
         image:"pharmacy.png",
         link:"pharmacy-courses"
     }
@@ -24,12 +24,12 @@ const HomeCard=()=>(
     {homeCardsList.map((each,index)=>(
         
         <div className="card custom-card col-sm-6" key={index}>
-        {<img src={`images/homecard-images/${each.image}`} alt={each.cardTitle}  />}
-        <div className="card-body" >
+        {<img src={`images/homecard-images/${each.image}`} alt={each.cardTitle} className='custom-card-image' />}
+        <div className="card-body p-4" >
 
-        <h5 className="card-title">{each.cardTitle}</h5>
-        <p className="card-text">{each.cardText}</p>
-        <Link to={`${each.link}`} > <button  className="btn btn-primary">Get Started</button></Link>
+        <h5 className="card-title p-0">{each.cardTitle}</h5>
+        <p className="card-text des-home-page">{each.cardText}</p>
+        <Link to={`${each.link}`} > <button  className="button-style-home">Get Started</button></Link>
  
   </div>
       </div>
