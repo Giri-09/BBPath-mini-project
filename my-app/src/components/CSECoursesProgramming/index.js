@@ -23,12 +23,7 @@ export const languagesList=[
     
     link:"java",
   },
-  {
-    cardTitle:"JavaScript",
-    cardText:"JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
-  
-    link:"javaScript",
-  },
+ 
   
     
   ]

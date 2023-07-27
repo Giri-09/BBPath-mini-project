@@ -19,7 +19,7 @@ import PythonChapter9 from './components/PythonChapter9';
 import PythonChapter10 from './components/PythonChapter10';
 import Java from './components/Java';
 import C from './components/C';
-import JavaScript from './components/JavaScript';
+
 import Arrays from './components/Arrays';
 import Strings from './components/Strings';
 import LinkedList from './components/LinkedList';
@@ -33,14 +33,31 @@ import GreedyAlgorithms from './components/GreedyAlgorithms';
 import DynamicProgramming from './components/DynamicProgramming';
 import CSECoursesDSA from './components/CSECoursesDSA';
 import CSECoursesDBMS from './components/CSECoursesDBMS';
+import Introduction from './components/Introduction';
+import Explanation from './components/Explanation';
+import Advantages from './components/Advantages';
+import Characteristics from './components/Characteristics';
+import Disadvantages from './components/Disadvantages';
 import CSECoursesFED from './components/CSECoursesFED';
+import HTML from './components/HTML';
+import CSS from './components/CSS';
+import JavaScript from './components/JavaScript';
 import CSECoursesBED from './components/CSECoursesBED';
 import CSECoursesST from './components/CSECoursesST';
+import SoftwareTesting from './components/SoftwareTesting';
+import TestCaseDesign from './components/TestCaseDesign';
+import TestAutomation from './components/TestAutomation';
+import TestManagement from './components/TestManagement';
+import LevelsOfTesting from './components/LevelsOfTesting'; 
+import SQL from './components/SQL';
+import MongoDB from './components/MongoDB';
+import NodeJS from './components/NodeJS';
 import LoginPage from './components/LoginPage'
 import NotFound from './components/NotFound';
 import ProtectedRoute from './components/ProtectedRoute'
-import './App.css';
+
 import { Stack } from 'react-bootstrap';
+import './App.css';
 
 const App = () => (
   <BrowserRouter>
@@ -56,7 +73,7 @@ const App = () => (
       <Route exact path="/cse-courses/programming/python" element={<Python />}/>
       <Route exact path="/cse-courses/programming/java" element={<Java />}/>
       <Route exact path="/cse-courses/programming/clan" element={<C />}/>
-       <Route exact path="/cse-courses/programming/javaScript" element={<JavaScript />}/>
+      
      
 
       <Route exact path="/cse-courses/dsa" element={<CSECoursesDSA />}/>
@@ -71,10 +88,23 @@ const App = () => (
       <Route exact path="/cse-courses/dsa/sorting" element={<GreedyAlgorithms />}/>
       <Route exact path="/cse-courses/dsa/greedy" element={<DynamicProgramming />}/>
       <Route exact path="/cse-courses/dsa/dp" element={<SortingAlgorithms />}/>
+      <Route exact path="/cse-courses/dbms/intro" element={<Introduction />}/>
+      <Route exact path="/cse-courses/dbms/explanation" element={<Explanation />}/>
+      <Route exact path="/cse-courses/dbms/characteristics" element={<Characteristics />}/>
+      <Route exact path="/cse-courses/dbms/advantages" element={<Advantages />}/>
+      <Route exact path="/cse-courses/dbms/disadvantages" element={<Disadvantages/>}/>
       <Route exact path="/cse-courses/dbms" element={<CSECoursesDBMS />}/>
+
       <Route exact path="/cse-courses/frontend" element={<CSECoursesFED />}/>
+      <Route exact path="/cse-courses/frontend/html" element={<HTML />}/>
+      <Route exact path="/cse-courses/frontend/css" element={<CSS />}/>
+      <Route exact path="/cse-courses/frontend/javascript" element={<JavaScript />}/>
+      <Route exact path="/cse-courses/backend/sql" element={<SQL />}/>
+      <Route exact path="/cse-courses/backend/mongodb" element={<MongoDB/>}/>
+      <Route exact path="/cse-courses/backend/nodejs" element={<NodeJS />}/>
       <Route exact path="/cse-courses/backend" element={<CSECoursesBED />}/>
       <Route exact path="/cse-courses/st" element={<CSECoursesST />}/>
+<<<<<<< HEAD
       <Route exact path="/cse-courses/programming/python/python-chapter-1" element={<PythonChapter1 />}/>
       <Route exact path="/cse-courses/programming/python/python-chapter-2" element={<PythonChapter2 />}/>
       <Route exact path="/cse-courses/programming/python/python-chapter-3" element={<PythonChapter3 />}/>
@@ -85,6 +115,13 @@ const App = () => (
       <Route exact path="/cse-courses/programming/python/python-chapter-8" element={<PythonChapter8 />}/>
       <Route exact path="/cse-courses/programming/python/python-chapter-9" element={<PythonChapter9 />}/>
       <Route exact path="/cse-courses/programming/python/python-chapter-10" element={<PythonChapter10 />}/>
+=======
+      <Route exact path="/cse-courses/st/testing" element={<SoftwareTesting />}/>
+      <Route exact path="/cse-courses/st/levels" element={<LevelsOfTesting />}/>
+      <Route exact path="/cse-courses/st/management" element={< TestManagement/>}/>
+      <Route exact path="/cse-courses/st/testcasedesign" element={<TestCaseDesign/>}/>
+      <Route exact path="/cse-courses/st/automation" element={<TestAutomation />}/>
+>>>>>>> a225b3acdc63d4e0061e8e128f67c0546787a570
       <Route path="*" element={<NotFound />} />
 
 
