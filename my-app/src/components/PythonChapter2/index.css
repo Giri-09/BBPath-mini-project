@@ -1,0 +1,8 @@
+.content-bg{
+    min-height: 100vh;
+    padding: 130px 50px 100px 50px;
+    
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
