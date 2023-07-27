@@ -73,9 +73,6 @@ const App = () => (
       <Route exact path="/cse-courses/programming/python" element={<Python />}/>
       <Route exact path="/cse-courses/programming/java" element={<Java />}/>
       <Route exact path="/cse-courses/programming/clan" element={<C />}/>
-      
-     
-
       <Route exact path="/cse-courses/dsa" element={<CSECoursesDSA />}/>
       <Route exact path="/cse-courses/dsa/arrays" element={<Arrays />}/>
       <Route exact path="/cse-courses/dsa/strings" element={<Strings />}/>
@@ -94,7 +91,6 @@ const App = () => (
       <Route exact path="/cse-courses/dbms/advantages" element={<Advantages />}/>
       <Route exact path="/cse-courses/dbms/disadvantages" element={<Disadvantages/>}/>
       <Route exact path="/cse-courses/dbms" element={<CSECoursesDBMS />}/>
-
       <Route exact path="/cse-courses/frontend" element={<CSECoursesFED />}/>
       <Route exact path="/cse-courses/frontend/html" element={<HTML />}/>
       <Route exact path="/cse-courses/frontend/css" element={<CSS />}/>

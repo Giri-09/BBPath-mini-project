@@ -58,14 +58,13 @@ const CSECoursesCard = () => (
       <div className="row">
         
             {courseList.map((each,index) => (
-             <div className="col-sm-6"  key={index}>
-               <Link to={`${each.link}`} className="link">
-              <div className="card m-2">
-              <div className="card-body">
+             <div className="col-sm-12 col-md-6 col-xl-4 mb-3"  key={index}>
+               <Link to={`${each.link}`} className="link ">
+              <div className="card m-2 min-height-450">
+              <div className="card-body p-0 d-flex flex-column">
                 <img className="cse-coursecard-image" src={`images/cse-courses-card-images/${each.image}`} alt={each.cardTitle} />
-
-                <h5 className="cardTitle">{each.cardTitle}</h5>
-                <p className="cardText">{each.cardText}</p>
+                <div className="p-3">                <h1 className="card-title-cse p-0">{each.cardTitle}</h1>
+                <p className="cardText">{each.cardText}</p></div>
                 
                 
                

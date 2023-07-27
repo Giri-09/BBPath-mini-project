@@ -111,11 +111,10 @@ class LoginPage extends Component {
           alt="website login"
         />
         <form className="form-container" onSubmit={this.submitForm}>
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-            className="login-website-logo-desktop-image"
-            alt="website logo"
-          />
+          <div className='d-flex align-items-center justify-content-start w-100 mb-2'>
+          <img src="/images/logo.png" alt="BBPath" className='login-logo me-2'/>
+          <h1 className='login-logo-title'>BBPath</h1>
+          </div>
           <div className="input-container">{this.renderUsernameField()}</div>
           <div className="input-container">{this.renderPasswordField()}</div>
           <button type="submit" className="login-page-button">
