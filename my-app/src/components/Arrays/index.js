@@ -45,7 +45,7 @@ int main()
 </pre>
 
 </div>
-<h4>C Initialization</h4>
+<h4>C Array Initialization</h4>
 <img src = "https://media.geeksforgeeks.org/wp-content/uploads/20230302092653/C-array-initialization.png"/><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <p>In this method, we initialize the array along with its declaration. We use an initializer list to initialize multiple elements of the array. An initializer list is the list of values enclosed within braces { } separated b a comma</p>
 <p><pre>{`data_type array_name [size] = {value1, value2, ... valueN};

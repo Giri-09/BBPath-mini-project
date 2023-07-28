@@ -16,14 +16,14 @@ export const courseList = [
   {
     cardTitle: "DataStructures and Algorithms",
     cardText:
-      "Learn different DataStructures and Algorithms used to program.In this session we'll be understanding the concept of DataStructures and implementation of algorithms along with their analysis based on time and space complexity",
+      "In this session we'll be understanding the concept of DataStructures and implementation of algorithms along with their analysis based on time and space complexity",
     image: "dsa.png",
     link:"dsa"
   },
   {
     cardTitle: "Database Management System",
     cardText:
-      "Learn database management system from basics in this online training.DBMS course taught hands-on by experts.Learn key concepts in relational database management system in detail with examples",
+      "Learn database management system.This DBMS course taught hands-on by experts.Learn key concepts in relational database management system in detail with examples",
     image: "dbms.png",
     link:"dbms"
   },
