@@ -30,20 +30,25 @@ const Strings = () => (
   {`We can initialize a C string in 4 different ways which are as follows:
 
 1. Assigning a string literal without size
-String literals can be assigned without size. Here, the name of the string str acts as a pointer because it is an array.
+String literals can be assigned without size. Here, the name of the string str acts as a pointer
+because it is an array.
 
 char str[] = "GeeksforGeeks";
 2. Assigning a string literal with a predefined size
-String literals can be assigned with a predefined size. But we should always account for one extra space which will be assigned to the null character. 
-If we want to store a string of size n then we should always declare a string with a size equal to or greater than n+1.
+String literals can be assigned with a predefined size. But we should always account for one 
+extra space which will be assigned to the null character. 
+If we want to store a string of size n then we should always declare a string with a size equal
+to or greater than n+1.
 
 char str[50] = "GeeksforGeeks";
 3. Assigning character by character with size
-We can also assign a string character by character. But we should remember to set the end character as ‘\0’ which is a null character.
+We can also assign a string character by character. But we should remember to set the end 
+character as ‘\0’ which is a null character.
 
 char str[14] = { 'G','e','e','k','s','f','o','r','G','e','e','k','s','\0'};
 4. Assigning character by character without size
-We can assign character by character without size with the NULL character at the end. The size of the string is determined by the compiler automatically.
+We can assign character by character without size with the NULL character at the end.
+The size of the string is determined by the compiler automatically.
 
 char str[] = { 'G','e','e','k','s','f','o','r','G','e','e','k','s','\0'};
 `}

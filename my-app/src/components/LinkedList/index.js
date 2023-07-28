@@ -35,13 +35,14 @@ hash maps, etc.</p>
 </pre>
 <h6>Singlelinkedlist</h6>
 <div><p>In a singly linked list, each node contains a reference to the next node in the sequence. Traversing a singly linked list is done in a forward direction.</p></div>
-<div><img src = "https://media.geeksforgeeks.org/wp-content/uploads/20220712172013/Singlelinkedlist.png" />    </div><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+<div><img src = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922124319/Singly-Linked-List1.png" />    </div><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <h6>Doubly LinkedList</h6><div>
 <div><p>In a doubly linked list, each node contains references to both the next and previous nodes. This allows for traversal in both forward and backward directions, but it requires additional memory for the backward reference.</p></div>
-<div><img src = "https://media.geeksforgeeks.org/wp-content/uploads/20220712180755/Doublylinkedlist.png" /> </div><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+<div><img src = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922124412/Doubly-Linked-List.png" /> </div><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <h6>Circular LinkedList</h6><div>
+  
 <p> In a circular linked list, the last node points back to the head node, creating a circular structure. It can be either singly or doubly linked.</p></div>
-<div><img src = "https://media.geeksforgeeks.org/wp-content/uploads/20220712180755/Doublylinkedlist.png" /> </div></div><br></br><br></br><br></br><br></br>
+<div><img src = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922124456/Circular-Linked-List.png" /> </div></div><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
 <h4>Operations on Linked Lists</h4>
 <p>Insertion: Adding a new node to a linked list involves adjusting the pointers of the existing nodes to maintain the proper sequence. Insertion can be performed at the beginning, end, or any position within the list</p>
