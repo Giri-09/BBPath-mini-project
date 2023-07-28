@@ -17,7 +17,7 @@ export const courseList = [
   {
     cardTitle: "Medical Coding",
     cardText:
-      " Medical coding is the process of describing medical diagnostics, treatments and other procedures using specific numerical codes. This process helps in easily identifying the various parameters involved in medical treatments.Medical Coding is an important technique used in capturing and maintaining medical records. ",
+      " Medical coding is the process of describing medical diagnostics, treatments and other procedures using specific numerical codes. This process helps in easily identifying the various parameters  in medical treatments. ",
     image: "medicalcoding.png",
     link:"medical-coding"
   },
