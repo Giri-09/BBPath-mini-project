@@ -19,7 +19,8 @@ import PythonChapter9 from './components/PythonChapter9';
 import PythonChapter10 from './components/PythonChapter10';
 import Java from './components/Java';
 import C from './components/C';
-
+import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
 import Arrays from './components/Arrays';
 import Strings from './components/Strings';
 import LinkedList from './components/LinkedList';
@@ -64,6 +65,8 @@ const App = () => (
     <Routes>
       <Route exact path="/login" element={<LoginPage />} />
       <Route exact path="/" element={<HomePage />} />
+      <Route exact path="/about-us" element={<AboutUs />} />
+      <Route exact path="/contact-us" element={<ContactUs />} />
       <Route exact path="/cse-courses" element={<CSECoursesCard />} />
       <Route exact path="/pharmacy-courses" element={<PharmacyoursesCard />} />
       <Route exact path="/pharmacy-courses/pharmacovigilance" element={<PharmacyoursesPV />} />

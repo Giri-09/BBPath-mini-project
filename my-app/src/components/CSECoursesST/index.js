@@ -7,31 +7,31 @@ import "./index.css";
 export const STList=[
   
   {
-    cardTitle:"SotwareTesting",
+    cardTitle:"Sotware Testing",
     cardText:"Software testing is a check activity to validate whether the actual results matches with expected results and to ensure that the software system is bug free. ",
     
     link:"testing",
   },
   {
-    cardTitle:"TestCaseDesign",
+    cardTitle:"Test Case Design",
     cardText:"A test case design is a document that includes the test's scope, the test strategy, the test environment, the software pieces for testing, the intended test actions within the project, the resources, and a schedule..",
     
     link:"testcasedesign",
   },
   {
-    cardTitle:"LevelsOfTesting",
+    cardTitle:"Levels Of Testing",
     cardText:"There are 4 levels of testing - unit testing, integration testing, system testing and acceptance testing. These levels are based on the extent of module testing.",
     
     link:"levels",
   },
   {
-    cardTitle:"TestManagement",
+    cardTitle:"Test Management",
     cardText:"Test management is the practice of closely managing and monitoring application testing to ensure that resources are being focused on high-risk or important areas of the software.",
     
     link:"management",
   },
   {
-    cardTitle:"TestAutomation",
+    cardTitle:"Test Automation",
     cardText:"Test automation is the process of using automation tools to maintain test data, execute tests, and analyze test results to improve software quality. Automated testing is also called test automation or automated QA testing",
     
     link:"automation",

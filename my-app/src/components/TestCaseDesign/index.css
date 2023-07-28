@@ -1,0 +1,22 @@
+.st-bg{
+    min-height: 100vh;
+    padding: 130px 50px 100px 50px;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black; /* Add black border to the table */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

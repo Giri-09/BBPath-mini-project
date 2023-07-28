@@ -1,3 +1,6 @@
+import {Link } from 'react-router-dom'
+import "./index.css"
+
 const Footer=()=>(
     <footer className="bg-dark text-white">
   <div className="container p-4 p-lg-5">
@@ -9,10 +12,9 @@ const Footer=()=>(
       <div className="col-md-3">
         <h4>Links</h4>
         <ul className="list-unstyled">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><Link to="/" className="link-style-footer">Home</Link></li>
+          <li><Link to="about-us" className="link-style-footer">About us</Link></li>
+          <li><Link to="contact-us" className="link-style-footer">Contact us</Link></li>
         </ul>
       </div>
       <div className="col-md-3">

@@ -4,7 +4,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import Cookies from 'js-cookie'
 import './index.css';
 
-const CustomNavbar = (props) => {
+const CustomNav2 = (props) => {
   const [isScrolled, setScrolled] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -48,11 +48,7 @@ const CustomNavbar = (props) => {
         <Navbar.Toggle aria-controls="navbar" onClick={handleMenuToggle} />
         <Navbar.Collapse id="navbar" className={`justify-content-end ${isMenuOpen ? 'show' : ''}`}>
           <Nav className="mr-auto">
-            <Link to="/" className="menu-item">Home</Link>
-            <Link to="about-us" className="menu-item">About us</Link>
-            <Link to="contact-us" className="menu-item">Contact us</Link>
-            {!(jwtToken === undefined) &&   <button className='logout-button' onClick={onClickLogout}>Logout</button>}
-           
+            <Link to="/" className="menu-item"><button className='btn btn-outline-secondary'>Home</button></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -60,5 +56,5 @@ const CustomNavbar = (props) => {
   );
 };
 
-export default CustomNavbar;
+export default CustomNav2;
 

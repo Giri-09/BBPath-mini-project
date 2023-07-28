@@ -1,0 +1,9 @@
+.link-style-footer{
+    font-size: 18x;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .link-style-footer:hover{
+    color: #155ff3;
+  }

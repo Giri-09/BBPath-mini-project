@@ -1,9 +1,7 @@
-.python-bg{
-    min-height: 100vh;
-    padding: 130px 50px 100px 50px;
-    
-    background-image: linear-gradient(to bottom right, #ffe5d4, white, white),
-      url(https://wallpapercave.com/wp/wp1859057.jpg);
-    background-size: cover;
-    background-position: center;
+.st-bg{
+  min-height: 100vh;
+  padding: 130px 50px 100px 50px;
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center;
 }

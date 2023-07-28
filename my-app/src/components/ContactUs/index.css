@@ -1,0 +1,10 @@
+.contact-bg{
+    min-height: 100vh;
+    padding: 80px;
+    padding-top: 100px;
+   
+        background-image: linear-gradient(to bottom right,#FFE5D4,white,white ), url(https://wallpapercave.com/wp/wp1859057.jpg);
+        background-size: cover;
+        background-position: center;
+    
+}
