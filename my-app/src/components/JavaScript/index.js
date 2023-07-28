@@ -98,26 +98,13 @@ const JavaScript = () => (
 		 DOM Manipulation Example
 	</code>
 </pre>
-<div id="myDiv">
+{`<div id="myDiv">
 	<p>
 		Hello, DOM!
 	</p>
-</div>
-<p>
-	&nbsp;
-</p>
-<p>
-	More JavaScript Topics and Examples
-</p>
-{`<!-- Bootstrap CSS -->`}
-<p>
-	&nbsp;
-</p>
-<div class="container mt-4">
-	<h1>
-		More JavaScript Topics and Examples
-	</h1>
-{`<!-- Continue from previous JavaScript examples -->`}
+</div>`}
+
+
 	<h2>
 		JavaScript Conditional Statements
 	</h2>
@@ -199,7 +186,7 @@ const JavaScript = () => (
 			console.log("End");`}
 		</code>
 	</pre>
-</div>
+
 
       </div>
   
