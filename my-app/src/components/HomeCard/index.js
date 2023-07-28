@@ -1,5 +1,7 @@
-import { Link } from 'react-router-dom'
-
+import React, { useState, useEffect } from 'react';
+import {Link } from 'react-router-dom'
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import Cookies from 'js-cookie'
 import "./index.css"
 
 const homeCardsList=[
@@ -18,28 +20,45 @@ const homeCardsList=[
     ]
     
 
-const HomeCard=()=>(
-    
-   <div className="row">
-    {homeCardsList.map((each,index)=>(
-        
-        <div className="card custom-card col-sm-6" key={index}>
-        {<img src={`images/homecard-images/${each.image}`} alt={each.cardTitle} className='custom-card-image' />}
-        <div className="card-body p-4" >
+const HomeCard=()=>{
 
-        <h5 className="card-title p-0">{each.cardTitle}</h5>
-        <p className="card-text des-home-page">{each.cardText}</p>
-        <Link to={`${each.link}`} > <button  className="button-style-home">Get Started</button></Link>
- 
-  </div>
+    const [jwtToken, setJwtToken] = useState(Cookies.get('jwt_token'));
+
+    const onClickLogout = () => {
+      Cookies.remove('jwt_token');
+      setJwtToken(undefined);
+    };
+  
+    useEffect(() => {
+      setJwtToken(Cookies.get('jwt_token'));
+    }, []);
+
+    
+  
+    return(
+        <div className="row">
+        {homeCardsList.map((each,index)=>(
+            
+            <div className="card custom-card col-sm-6" key={index}>
+            {<img src={`images/homecard-images/${each.image}`} alt={each.cardTitle} className='custom-card-image' />}
+            <div className="card-body p-4" >
+    
+            <h5 className="card-title p-0">{each.cardTitle}</h5>
+            <p className="card-text des-home-page">{each.cardText}</p>
+            {jwtToken?<Link to={`${each.link}`} > <button  className="button-style-home">Get Started</button></Link>:<Link to={`/login`} > <button  className="button-style-home">Get Started</button></Link>}
+            
+     
       </div>
-      
+          </div>
+          
+        )
+        )}
+        </div>
     )
-    )}
-    </div>
+
 
 
    
-)
+    }
 
 export default HomeCard
