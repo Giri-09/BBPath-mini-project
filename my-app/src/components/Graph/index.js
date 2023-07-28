@@ -48,12 +48,15 @@ Copy code
 1 1 0 1 0
 2 0 1 0 1
 3 1 0 1 0`}</pre>
-<img src = "https://cdncontribute.geeksforgeeks.org/wp-content/uploads/undirectedgraph.png"/>
+<img src = "https://cdncontribute.geeksforgeeks.org/wp-content/uploads/undirectedgraph.png"/><br></br><br></br><br></br>
 <p>See the undirected graph shown below:</p><br></br><br></br><br></br><br></br>
-  <img src = "https://cdncontribute.geeksforgeeks.org/wp-content/uploads/adjacencymatrix.png"/><br></br><br></br><br></br><br></br><br></br>
-     <p>Adjacency Matrix for above graph exapmle</p><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+
+  <img src = "https://cdncontribute.geeksforgeeks.org/wp-content/uploads/adjacencymatrix.png"/> <p>Adjacency Matrix for above graph exapmle</p><br></br><br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+  <br></br><br></br>
+    
+     <p>Adjacency List Representation of above graph</p>
      <img src = "https://cdncontribute.geeksforgeeks.org/wp-content/uploads/listadjacency.png"/>
-     <p>Adjacency List Representation of above graph</p><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+     <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
       </div>
   
       <Footer />
