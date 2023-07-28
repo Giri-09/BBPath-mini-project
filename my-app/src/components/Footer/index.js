@@ -3,7 +3,7 @@ import "./index.css"
 
 const Footer=()=>(
     <footer className="bg-dark text-white">
-  <div className="container p-4 p-lg-5">
+  <div className="container p-4 display-inherit">
     <div className="row">
       <div className="col-md-6">
         <h3>BALAJI'S BRIGTH PATH</h3>

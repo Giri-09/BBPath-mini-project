@@ -7,3 +7,6 @@
   .link-style-footer:hover{
     color: #155ff3;
   }
+  .display-inherit{
+    display: inherit !important;
+  }
