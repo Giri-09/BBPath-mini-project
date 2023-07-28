@@ -1053,7 +1053,8 @@ const PharmacyCoursesCR = () => (
 	</li>
 </ul>
 
-       
+        
+	 
       </div>
   
       <Footer />
