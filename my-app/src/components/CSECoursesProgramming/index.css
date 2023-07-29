@@ -32,3 +32,9 @@
   color: #717183;
   line-height: 1.2;
 }
+.youtube-image{
+  height: 150px;
+  width: 250px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

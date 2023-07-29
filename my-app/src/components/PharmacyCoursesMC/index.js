@@ -12,6 +12,7 @@ const PharmacyCoursesMC = () => (
         <h1>
 	Chapter 1: Introduction to Medical Coding
 </h1>
+<br />
 <h2>
 	Importance and Role of Medical Coding in Healthcare
 </h2>
@@ -95,6 +96,7 @@ const PharmacyCoursesMC = () => (
 <h1>
 	Chapter 2: ICD Coding
 </h1>
+<br />
 <h2>
 	Introduction to the International Classification of Diseases (ICD)
 </h2>
@@ -166,6 +168,7 @@ const PharmacyCoursesMC = () => (
 <h1>
 	Chapter 3: CPT Coding
 </h1>
+<br />
 <h2>
 	Introduction to the Current Procedural Terminology (CPT)
 </h2>
@@ -237,6 +240,7 @@ const PharmacyCoursesMC = () => (
 <h1>
 	Chapter 4: HCPCS Coding
 </h1>
+<br />
 <h2>
 	Overview of the Healthcare Common Procedure Coding System (HCPCS)
 </h2>
@@ -311,6 +315,7 @@ const PharmacyCoursesMC = () => (
 <h1>
 	Chapter 5: Coding Guidelines and Documentation
 </h1>
+<br />
 <h2>
 	Official Coding Guidelines for ICD, CPT, and HCPCS
 </h2>
@@ -382,6 +387,7 @@ const PharmacyCoursesMC = () => (
 <h1>
 	Chapter 6: Coding for Specialties and Settings
 </h1>
+<br />
 <h2>
 	Coding Considerations for Different Medical Specialties
 </h2>
@@ -471,6 +477,7 @@ const PharmacyCoursesMC = () => (
 <h1>
 	Chapter 7: Revenue Cycle Management
 </h1>
+<br />
 <h2>
 	Introduction to Revenue Cycle Management (RCM)
 </h2>
@@ -542,6 +549,7 @@ const PharmacyCoursesMC = () => (
 <h1>
 	Chapter 8: Electronic Health Records and Coding
 </h1>
+<br />
 <h2>
 	Integration of Coding with Electronic Health Records (EHR)
 </h2>
@@ -613,6 +621,7 @@ const PharmacyCoursesMC = () => (
 <h1>
 	Chapter 9: Auditing and Compliance
 </h1>
+<br />
 <h2>
 	Coding Audits and Their Importance
 </h2>
@@ -690,6 +699,7 @@ const PharmacyCoursesMC = () => (
 <h1>
 	Chapter 10: Career Path and Certification
 </h1>
+<br />
 <h2>
 	Career Opportunities in Medical Coding
 </h2>

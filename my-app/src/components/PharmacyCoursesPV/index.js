@@ -19,6 +19,7 @@ const PharmacyCoursesPV = () => (
 	<h1>
 	Chapter 1: Introduction to Pharmacovigilance
 </h1>
+<br />
 <h2>
 	Definition and Importance of Pharmacovigilance
 </h2>
@@ -135,6 +136,7 @@ const PharmacyCoursesPV = () => (
 	<h1>
 	Chapter 2: Pharmacovigilance Regulations and Guidelines
 </h1>
+<br />
 <h2>
 	Overview of International Regulatory Bodies
 </h2>
@@ -230,6 +232,7 @@ const PharmacyCoursesPV = () => (
 	<h1>
 	Chapter 3: Adverse Drug Reactions (ADRs)
 </h1>
+<br />
 <h2>
 	Definition and Classification of Adverse Drug Reactions
 </h2>
@@ -325,43 +328,13 @@ const PharmacyCoursesPV = () => (
 	Documentation includes recording relevant information about the ADR, such as the drug name, patient details, ADR description, and action taken in response.
 </p>
 
-	<br />
-	<br />
-	 Chapter 4: Pharmacovigilance Data Collection and Analysis
-	<br />
-	 - Pharmacovigilance data sources (e.g., spontaneous reporting, clinical trials, literature)
-	<br />
-	 - Data collection methods and tools
-	<br />
-	 - Signal detection and management
-	<br />
-	 - Data analysis techniques (e.g., disproportionality analysis, signal validation)
-	<br />
-	<br />
-	 Chapter 5: Pharmacovigilance Process and Workflow
-	<br />
-	 - Pharmacovigilance lifecycle and workflow
-	<br />
-	 - Case processing and evaluation
-	<br />
-	 - Follow-up and regulatory actions
-	<br />
-	 - Risk management and mitigation strategies
-	<br />
-	<br />
-	 Chapter 6: Risk Communication and Drug Safety Communication
-	<br />
-	 - Importance of risk communication in pharmacovigilance
-	<br />
-	 - Communicating drug safety information to healthcare professionals and patients
-	<br />
-	 - Pharmacovigilance communication channels (e.g., product labeling, safety advisories)
-	<br />
-	 - Public awareness campaigns and patient education
-	<br />
+	
+	 
+	
 	<h1>
 	Chapter 4: Pharmacovigilance Data Collection and Analysis
 </h1>
+<br />
 <h2>
 	Pharmacovigilance Data Sources
 </h2>
@@ -478,6 +451,7 @@ const PharmacyCoursesPV = () => (
 <h1>
 	Chapter 5: Pharmacovigilance Process and Workflow
 </h1>
+<br />
 <h2>
 	Pharmacovigilance Lifecycle and Workflow
 </h2>
@@ -605,6 +579,7 @@ const PharmacyCoursesPV = () => (
 <h1>
 	Chapter 6: Risk Communication and Drug Safety Communication
 </h1>
+<br />
 <h2>
 	Importance of Risk Communication in Pharmacovigilance
 </h2>
@@ -697,6 +672,7 @@ const PharmacyCoursesPV = () => (
 <h1>
 	Chapter 7: Pharmacovigilance in Clinical Trials
 </h1>
+<br />
 <h2>
 	Role of Pharmacovigilance in Clinical Trial Safety Monitoring
 </h2>
@@ -792,6 +768,7 @@ const PharmacyCoursesPV = () => (
 <h1>
 	Chapter 8: Pharmacovigilance Audits and Inspections
 </h1>
+<br />
 <h2>
 	Purpose and Process of Pharmacovigilance Audits and Inspections
 </h2>
@@ -883,6 +860,7 @@ const PharmacyCoursesPV = () => (
 <h1>
 	Chapter 9: Pharmacovigilance and Pharmacoepidemiology
 </h1>
+<br />
 <h2>
 	Relationship between Pharmacovigilance and Pharmacoepidemiology
 </h2>
@@ -954,6 +932,7 @@ const PharmacyCoursesPV = () => (
 <h1>
 	Chapter 10: Pharmacovigilance and Medical Information
 </h1>
+<br />
 <h2>
 	Integration of Pharmacovigilance and Medical Information Functions
 </h2>

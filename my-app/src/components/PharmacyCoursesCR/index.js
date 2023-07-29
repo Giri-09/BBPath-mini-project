@@ -9,9 +9,11 @@ const PharmacyCoursesCR = () => (
       <CustomNavbar />
       <div className='python-bg'>
 		<h1>Clinical Research</h1>
-		<h1>
+		<br />
+		<h2>
 	Chapter 1: Introduction to Pharmacy Clinical Research
-</h1>
+</h2>
+<br />
 <h2>
 	Overview of Clinical Research in Pharmacy
 </h2>
@@ -92,6 +94,7 @@ const PharmacyCoursesCR = () => (
 <h1>
 	Chapter 2: Study Design and Protocol Development
 </h1>
+<br />
 <h2>
 	Basic Principles of Study Design
 </h2>
@@ -199,6 +202,7 @@ const PharmacyCoursesCR = () => (
 <h1>
 	Chapter 3: Research Ethics and Regulatory Requirements
 </h1>
+<br />
 <h2>
 	Ethical Considerations in Pharmacy Clinical Research
 </h2>
@@ -306,6 +310,7 @@ const PharmacyCoursesCR = () => (
 <h1>
 	Chapter 4: Data Collection and Management
 </h1>
+<br />
 <h2>
 	Planning and Implementing Data Collection Methods
 </h2>
@@ -413,6 +418,7 @@ const PharmacyCoursesCR = () => (
 <h1>
 	Chapter 5: Statistical Analysis in Pharmacy Clinical Research
 </h1>
+<br />
 <h2>
 	Basics of Statistical Analysis for Clinical Research
 </h2>
@@ -520,6 +526,7 @@ const PharmacyCoursesCR = () => (
 <h1>
 	Chapter 6: Adverse Event Reporting and Pharmacovigilance
 </h1>
+<br />
 <h2>
 	Identifying and Reporting Adverse Events in Clinical Research
 </h2>
@@ -627,6 +634,7 @@ const PharmacyCoursesCR = () => (
 <h1>
 	Chapter 7: Clinical Trial Management and Monitoring
 </h1>
+<br />
 <h2>
 	Roles and Responsibilities of a Clinical Research Team
 </h2>
@@ -734,6 +742,7 @@ const PharmacyCoursesCR = () => (
 <h1>
 	Chapter 8: Data Analysis and Interpretation
 </h1>
+<br />
 <h2>
 	Principles of Data Analysis in Pharmacy Clinical Research
 </h2>
@@ -841,6 +850,7 @@ const PharmacyCoursesCR = () => (
 <h1>
 	Chapter 9: Publication and Dissemination of Research Findings
 </h1>
+<br />
 <h2>
 	Writing and Publishing Research Articles
 </h2>
@@ -948,6 +958,7 @@ const PharmacyCoursesCR = () => (
 <h1>
 	Chapter 10: Future Directions in Pharmacy Clinical Research
 </h1>
+<br />
 <h2>
 	Emerging Trends and Innovations in Pharmacy Research
 </h2>
