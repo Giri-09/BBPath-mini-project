@@ -39,6 +39,8 @@ class LoginPage extends Component {
     this.setState({ showSubmitError: true, errorMsg })
   }
 
+
+
   submitForm = async event => {
     event.preventDefault()
     const { username, password } = this.state
@@ -118,8 +120,9 @@ class LoginPage extends Component {
           <div className="input-container">{this.renderUsernameField()}</div>
           <div className="input-container">{this.renderPasswordField()}</div>
           <button type="submit" className="login-page-button">
-            Login
+            Sign Up | Login 
           </button>
+         
           {showSubmitError && <p className="error-message">*{errorMsg}</p>}
         </form>
       </div>
