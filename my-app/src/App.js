@@ -50,6 +50,9 @@ import TestCaseDesign from './components/TestCaseDesign';
 import TestAutomation from './components/TestAutomation';
 import TestManagement from './components/TestManagement';
 import LevelsOfTesting from './components/LevelsOfTesting'; 
+import PharmacyCoursesCRCard from './components/PharmacyCoursesCRCard';
+import PharmacyCoursesMCCard from './components/PharmacyCoursesMCCard';
+import PharmacyCoursesPVCard from './components/PharmacyCoursesPVCard';
 import SQL from './components/SQL';
 import MongoDB from './components/MongoDB';
 import NodeJS from './components/NodeJS';
@@ -69,9 +72,12 @@ const App = () => (
       <Route exact path="/contact-us" element={<ContactUs />} />
       <Route exact path="/cse-courses" element={<CSECoursesCard />} />
       <Route exact path="/pharmacy-courses" element={<PharmacyoursesCard />} />
-      <Route exact path="/pharmacy-courses/pharmacovigilance" element={<PharmacyoursesPV />} />
-      <Route exact path="/pharmacy-courses/medical-coding" element={<PharmacyoursesMC />} />
-      <Route exact path="/pharmacy-courses/clinical-reasearch" element={<PharmacyoursesCR />} />
+      <Route exact path="/pharmacy-courses/pharmacovigilance-card/pharmacovigilance" element={<PharmacyoursesPV />} />
+      <Route exact path="/pharmacy-courses/pharmacovigilance-card" element={<PharmacyCoursesPVCard />} />
+      <Route exact path="/pharmacy-courses/medical-coding-card" element={<PharmacyCoursesMCCard />} />
+      <Route exact path="/pharmacy-courses/clinical-reasearch-card" element={<PharmacyCoursesCRCard />} />
+      <Route exact path="/pharmacy-courses/medical-coding-card/medical-coding" element={<PharmacyoursesMC />} />
+      <Route exact path="/pharmacy-courses/clinical-reasearch-card/clinical-reasearch" element={<PharmacyoursesCR />} />
       <Route exact path="/cse-courses/programming" element={<CSECoursesProgrammming />}/>
       <Route exact path="/cse-courses/programming/python" element={<Python />}/>
       <Route exact path="/cse-courses/programming/java" element={<Java />}/>

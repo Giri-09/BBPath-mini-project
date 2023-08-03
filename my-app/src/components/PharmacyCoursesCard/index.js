@@ -12,21 +12,21 @@ export const courseList = [
     cardText:
       "Module will enable aspirants to understand issues surrounding the risks and benifits of drug use in humans including the cause,manifestations and consequences of adverse drug effects. ",
     image: "covigilance.png",
-    link:"pharmacovigilance"
+    link:"pharmacovigilance-card"
   },
   {
     cardTitle: "Medical Coding",
     cardText:
       " Medical coding is the process of describing medical diagnostics, treatments and other procedures using specific numerical codes. This process helps in easily identifying the various parameters  in medical treatments. ",
     image: "medicalcoding.png",
-    link:"medical-coding"
+    link:"medical-coding-card"
   },
   {
     cardTitle: "Clinical Research",
     cardText:
       "This course will provide you with the essentials of clinical research in a very summarized and concise manner to understand the process and to work towards building your qualifications for a job.",
     image: "clinicalResearch.png",
-    link:"clinical-reasearch"
+    link:"clinical-reasearch-card"
   },
   
   
