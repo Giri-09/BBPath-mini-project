@@ -19,6 +19,7 @@ const AboutUs = () => {
   }, []);
 
   return (
+    
     <Fragment>
       <CustomNav2 onClickLogout={onClickLogout} />
       <div className='contact-bg'>

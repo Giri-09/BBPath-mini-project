@@ -65,8 +65,7 @@ const CSECoursesCard = () => (
                 <img className="cse-coursecard-image" src={`images/cse-courses-card-images/${each.image}`} alt={each.cardTitle} />
                 <div className="p-3">                <h1 className="card-title-cse p-0">{each.cardTitle}</h1>
                 <p className="cardText">{each.cardText}</p></div>
-                
-                
+              
                
               </div>
               </div>
