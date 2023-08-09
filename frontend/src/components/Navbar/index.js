@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {Link } from 'react-router-dom'
+import {Link,useNavigate} from 'react-router-dom'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import Cookies from 'js-cookie'
 import './index.css';
@@ -8,13 +8,16 @@ const CustomNavbar = (props) => {
   const [isScrolled, setScrolled] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
 
+  const navigate=useNavigate();
+
   const handleMenuToggle = () => {
     setMenuOpen(!isMenuOpen);
   };
 
 
   const onClickLogout = () => {
-    Cookies.remove('jwt_token', { path: '/' });
+    Cookies.remove('jwt_token');
+    navigate("/");
   };
   
     

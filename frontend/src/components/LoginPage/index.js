@@ -30,9 +30,12 @@ const handleSubmit = async (event) => {
   if (!validationErrors.email && !validationErrors.password) {
       try {
           const response = await axios.post('http://localhost:8084/login', values);
-          const { status, message } = response.data;
+          const { status, message,jwt_token } = response.data;
 
           if (status === "Success") {
+            Cookies.set('jwt_token', jwt_token, {
+              expires: 30,
+            })
               navigate("/");
           } else {
               alert(message);  // Display the error message from the server

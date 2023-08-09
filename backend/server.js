@@ -41,6 +41,18 @@
    });
 });
 
+function generateRandomToken(length) {
+    const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    let token = "";
+  
+    for (let i = 0; i < length; i++) {
+      const randomIndex = Math.floor(Math.random() * characters.length);
+      token += characters.charAt(randomIndex);
+    }
+  
+    return token;
+  }
+
 // Updated Login Route
 app.post("/login", (req, res) => {
    const sql = "SELECT * FROM login WHERE `email` = ? AND `password` = ?";
@@ -49,7 +61,7 @@ app.post("/login", (req, res) => {
            return res.json({ status: "Error", message: "Error querying the database." });
        }
        if (data.length > 0) {
-           return res.json({ status: "Success", message: "Login successful." });
+           return res.json({ status: "Success", message: "Login successful.",jwt_token:generateRandomToken(32)});
        } else {
            return res.json({ status: "Failed", message: "Incorrect email or password." });
        }
