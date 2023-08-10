@@ -52,8 +52,8 @@ const CustomNavbar = (props) => {
         <Navbar.Collapse id="navbar" className={`justify-content-end ${isMenuOpen ? 'show' : ''}`}>
           <Nav className="mr-auto">
             <Link to="/" className="menu-item">Home</Link>
-            <Link to="about-us" className="menu-item">About us</Link>
-            <Link to="contact-us" className="menu-item">Contact us</Link>
+            <Link to="/about-us" className="menu-item">About us</Link>
+            <Link to="/contact-us" className="menu-item">Contact us</Link>
             {!(jwtToken === undefined) &&   <button className='logout-button' onClick={onClickLogout}>Logout</button>}
            
           </Nav>
