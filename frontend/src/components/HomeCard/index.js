@@ -24,41 +24,40 @@ const HomeCard=()=>{
 
     const [jwtToken, setJwtToken] = useState(Cookies.get('jwt_token'));
 
-    const onClickLogout = () => {
-      Cookies.remove('jwt_token');
-      setJwtToken(undefined);
-    };
+
   
     useEffect(() => {
-      setJwtToken(Cookies.get('jwt_token'));
-    }, []);
-
+        setJwtToken(Cookies.get('jwt_token'));
+      }, []);
     
-  
-    return(
+      const handleLinkClick = () => {
+        if (typeof jwtToken === 'undefined') {
+          alert('Please log in');
+        }
+      };
+    
+      return (
         <div className="row">
-        {homeCardsList.map((each,index)=>(
-            
+          {homeCardsList.map((each, index) => (
             <div className="card custom-card col-sm-6" key={index}>
-            {<img src={`images/homecard-images/${each.image}`} alt={each.cardTitle} className='custom-card-image' />}
-            <div className="card-body p-4" >
-    
-            <h5 className="card-title p-0">{each.cardTitle}</h5>
-            <p className="card-text des-home-page">{each.cardText}</p>
-            <Link to={`${each.link}`} > <button  className="button-style-home">Get Started</button></Link>
-            
-     
-      </div>
-          </div>
-          
-        )
-        )}
+              <img src={`images/homecard-images/${each.image}`} alt={each.cardTitle} className='custom-card-image' />
+              <div className="card-body p-4">
+                <h5 className="card-title p-0">{each.cardTitle}</h5>
+                <p className="card-text des-home-page">{each.cardText}</p>
+                {typeof jwtToken === 'undefined' ? (
+                  <button className="button-style-home" onClick={handleLinkClick}>
+                    Get Started
+                  </button>
+                ) : (
+                  <Link to={`${each.link}`}>
+                    <button className="button-style-home">Get Started</button>
+                  </Link>
+                )}
+              </div>
+            </div>
+          ))}
         </div>
-    )
-
-
-
-   
-    }
+      );
+    };
 
 export default HomeCard
