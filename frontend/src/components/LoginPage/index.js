@@ -49,19 +49,18 @@ const handleSubmit = async (event) => {
     return (
       <div className="login-form-container">
         <img
-          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+          src="/images/login.png"
           className="login-website-logo-mobile-image"
           alt="website logo"
         />
         <img
-          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-login-img.png"
+          src="/images/login.png"
           className="login-image"
           alt="website login"
         />
-        <form className="form-container" action="" onSubmit={handleSubmit}>
-          <div className='d-flex align-items-center justify-content-start w-100 mb-4'>
-          <img src="/images/logo.png" alt="BBPath" className='login-logo me-2'/>
-          <h1 className='login-logo-title'>BBPath</h1>
+        <form className="form-container pt-0" action="" onSubmit={handleSubmit}>
+          <div className='d-flex align-items-center justify-content-start w-100 '>
+          <img src="/images/login-logo.png" alt="BBPath" className='login-logo me-2'/>
           </div>  
             <div className='mb-3 '>
               <label htmlFor="email" className="mb-1"><strong>Email:</strong></label><br />
@@ -73,7 +72,7 @@ const handleSubmit = async (event) => {
               <input id="password" type="password" placeholder='Enter Password ' className='form-control rounded-0' onChange={handleInput} name="password"/>
               {errors.password && <span className='text-danger'>{errors.password }</span>} 
           </div>
-          <button className='btn btn-success w-100 mb-3 rounded-0' type='submit'><strong>Log in </strong></button>
+          <button className='btn btn-outline-info w-100 mb-3 rounded-0 ' type='submit'><strong>Log in </strong></button>
           <p>You are agree to our terms and policies</p>
          <Link to="/signup"> <button className='btn btn-default  border w-100 bg-light rounded-0 text-decoration-none'>Create Account</button></Link> 
         </form>

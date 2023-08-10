@@ -2,6 +2,7 @@ import React,{useState} from "react"
 import { Link, useNavigate } from 'react-router-dom'
 import { validation   } from "../SignupValidation"
 import axios from "axios"
+import "./index.css"
 
 function SignupPage(){
     const [values,setValues]=useState({
@@ -49,8 +50,8 @@ function SignupPage(){
 
 
     return(
-        <div className="d-flex justify-content-center align-items-center bg-dark vh-100">
-            <div className="bg-white p-3 rounded w-25">
+        <div className="d-flex justify-content-center align-items-center vh-100 signup-bg">
+            <div className="bg-white opacity p-3 rounded w-25">
                 <h2>Sign up</h2>
             <form action="POST" onSubmit={handleSubmit}>
             <div className='mb-3 '> 
@@ -68,7 +69,7 @@ function SignupPage(){
               <input id="password" type="password" placeholder='Enter Password ' className='form-control rounded-0' name="password" onChange={handleInput}/>
               {errors.password && <span className='text-danger'>{errors.password }</span>} 
           </div>
-          <button className='btn btn-success w-100 mb-3 rounded-0' type="submit"><strong>Sign up </strong></button>
+          <button className='btn btn-primary w-100 mb-3 rounded-0' type="submit"><strong>Sign up </strong></button>
           <p>You are agree to our terms and policies</p>
          <Link to="/login"> <button className='btn btn-default  border w-100 bg-light rounded-0 text-decoration-none'>Login</button></Link> 
             </form>
